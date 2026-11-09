@@ -18,7 +18,7 @@ const account = {
         if (amount > account.balance) {
             console.log("Insufficient funds");
         } else {
-            this.balance -= amount;
+            account.balance -= amount;
             console.log("Withdrawing: $" + amount);
         }
     },
